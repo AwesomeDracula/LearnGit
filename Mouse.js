@@ -6,3 +6,5 @@ function Mouse(argument) {
 Mouse.prototype.eat = function(Cat) {
 	this.stomach.push(Cat);
 };
+
+module.exports = Mouse;
